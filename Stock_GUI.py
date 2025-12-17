@@ -183,7 +183,7 @@ class StockApp:
         self.stockList.insert(END, self.addSymbolEntry.get())
         self.addSymbolEntry.delete(0, END)
         self.addNameEntry.delete(0, END)
-        self.addSharedEntry.delete(0, END)
+        self.addSharesEntry.delete(0, END)
 
     # Remove stock and all history from being tracked.
 
